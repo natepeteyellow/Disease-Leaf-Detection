@@ -1,18 +1,18 @@
 # Disease-Leaf-Detection
 
-This repo was created to store our project files from the Kaggle "PlantVillage" dataset (https://www.kaggle.com/xabdallahali/plantvillage-dataset). The dataset contains three types of folders:
+This repo was created to store our project files from the <a href="https://www.kaggle.com/xabdallahali/plantvillage-dataset"> Kaggle "PlantVillage" dataset </a>. The dataset contains three types of folders:
 
 1. color
 2. grayscale
 3. segmented
 
-We will first train 6 different architectures on the color dataset. After we have validated the success of various architectures from PyTorch and compared their accuracies, we will train the models using different data augmentations. 
+We will first train 6 different off-the-shelf PyTorch architectures on the color dataset. After we have validated the success of various architectures and compared their accuracies, we will train the models using different data augmentations. 
 
-For each of the architectures, it is critical to change the final layer of the chosen model. Though the PyTorch tutorial uses a fc final layer for the resnet, all other architectures will have varying final layer parameter dimensions. Please make sure to reference Nathen's .ipynb file to see examples of how the final layers can be modified.
+<h2> IMPORTANT NOTES: </h2>
 
-<b> IMPORTANT NOTE: </b>
+<b> FIRST: </b> For each of the architectures, it is critical to change the final layer of the chosen model. Though the PyTorch tutorial uses a fc final layer for the resnet, all other architectures will have varying final layer parameter dimensions. Please reference Nathen's .ipynb file to see examples of how the final layers can be modified.
 
-Make sure to update these two blocks of code from the PyTorch ConvNet tutorial code: 
+<b> SECOND: </b> Make sure to update these two blocks of code from the PyTorch ConvNet tutorial code: 
 
 * num_epochs = 5 instead of num_epochs = 25 (we don't have the computational bandwidth to run 25 epochs)
 
@@ -31,6 +31,13 @@ Different Network Assignments:
 4. VGG - Sahithi
 5. Inception- Jey
 6. SqueezeNet- Jey
+7. (Optional) Generative Adversarial Network (GAN)- Nathen
 
-(7) Generative Adversarial Network (GAN)- Nathen
+Later, when we perform data augmentation, we will consider the following techniques:
+
+1. Gamma correction 
+2. Gray Scale
+3. Scaling
+4. Noise injection or principal component analysis (PCA) color augmentation
+
  
