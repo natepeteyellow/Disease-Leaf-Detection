@@ -40,4 +40,14 @@ Later, when we perform data augmentation, we will consider the following techniq
 3. Scaling
 4. Noise injection or principal component analysis (PCA) color augmentation
 
+
+References:
+1. https://www.sciencedirect.com/science/article/pii/S2214317316300154
+2. https://ieeexplore.ieee.org/document/8273700
+3. https://www.researchgate.net/publication/318109025_Leaf_Disease_Detection_using_Image_Processing
+4. https://www.sciencedirect.com/science/article/pii/S0168169918310202
+5. https://pdfs.semanticscholar.org/9426/ae4ea4329521265c738e78221d1aff532537.pdf
+6. https://scialert.net/fulltextmobile/?doi=itj.2011.267.275
+
+
  
