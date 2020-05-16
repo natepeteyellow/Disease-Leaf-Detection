@@ -1,5 +1,7 @@
 # Disease-Leaf-Detection
 
+<b> Update: This project is forked from the final project repository submitted at the conclusion of OR 610: Deep Learning and Predictive Analytics, Fall 2019 at George Mason University. I will be cleaning up and re-running the code.</b>
+
 This repo was created to store our project files from the <a href="https://www.kaggle.com/xabdallahali/plantvillage-dataset"> Kaggle "PlantVillage" dataset </a>. The dataset contains three types of folders:
 
 1. color
